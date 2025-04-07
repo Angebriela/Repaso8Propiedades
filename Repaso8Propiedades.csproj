@@ -58,8 +58,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Propiedad.cs" />
+    <Compile Include="PropiedadArchivo.cs" />
     <Compile Include="Propietario.cs" />
     <Compile Include="PropietarioArchivo.cs" />
+    <Compile Include="ReporteArchivo.cs" />
     <Compile Include="ReportePropiedad.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
