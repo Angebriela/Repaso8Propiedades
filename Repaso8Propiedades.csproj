@@ -55,6 +55,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPropiedades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPropiedades.Designer.cs">
+      <DependentUpon>FormPropiedades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPropietarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPropietarios.Designer.cs">
+      <DependentUpon>FormPropietarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportePropiedades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReportePropiedades.Designer.cs">
+      <DependentUpon>FormReportePropiedades.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Propiedad.cs" />
@@ -65,6 +83,15 @@
     <Compile Include="ReportePropiedad.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPropiedades.resx">
+      <DependentUpon>FormPropiedades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPropietarios.resx">
+      <DependentUpon>FormPropietarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReportePropiedades.resx">
+      <DependentUpon>FormReportePropiedades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
